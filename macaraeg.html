@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Page</title>
+    <style>
+        body {
+            background-color: #FF5C77;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        header, nav, section, footer {
+            margin-bottom: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        form input, form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        img {
+            display: block;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Laila E. Macaraeg</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Personal Section -->
+    <section>
+        <article>
+            <h2>About Me</h2>
+            <p>Hello! I am Laila E. Macaraeg, Student form BSIT1X. I want to learn more about web development, exploring technology, and to have knowledge that i can use in the future</p>
+            
+            <!-- Profile Image -->
+            <img src="file:///C:/Users/pauli/Downloads/f434e947-7247-4181-99e6-d1a48c602742.jpg"/150" width="150">
+
+            <!-- Hobbies List -->
+            <h3>My Hobbies</h3>
+            <ul>
+                <li>Watching Movies</li>
+                <li>Playing online games</li>
+                <li>Playing badminton&volleyball</li>
+            </ul>
+        </article>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Register Here</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter a password" required>
+
+            <label for="birthdate">Birthdate:</label>
+            <input type="date" id="birthdate" name="birthdate">
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="1" max="120">
+
+            <input type="submit" value="Register">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Laila E. Macaraeg. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
